@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Roboto, Merienda } from "next/font/google";
 import "./globals.css";
-import Header from "./components/header";
+import Header from "./components/header/header";
 import Footer from "./components/footer";
 
 const roboto = Roboto({
@@ -21,11 +21,8 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html
-      lang="en"
-      className={`${merienda.variable} ${roboto.variable}  h-full antialiased`}
-    >
-      <body className="min-h-full flex flex-col font-roboto">
+    <html lang="en" className={`${roboto.variable} ${merienda.variable}`}>
+      <body className="min-h-full flex flex-col w-full bg-slate-50 text-slate-700">
         <Header />
         {children}
         <Footer />

@@ -1,10 +1,14 @@
 @import "tailwindcss";
 
+:root {
+ --text-lg-screen: 4rem;
+}
 
 
 @theme inline {
   --font-roboto: var(--font-roboto);
-  --font-merienda: var(--font-merienda)
+  --font-merienda: var(--font-merienda);
+  --text-lg-screen: var(--text-lg-screen);
 }
 
 
