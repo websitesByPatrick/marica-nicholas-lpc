@@ -69,8 +69,8 @@ export default function Hero() {
           <div className="absolute inset-0 -m-4 rounded-4xl bg-[radial-gradient(circle,rgba(255,255,255,0.9),rgba(148,163,184,0.18)_55%,rgba(148,163,184,0)_100%)] blur-2xl" />
 
           <div className="relative rounded-4xl border border-white/60 bg-white/85 p-6 shadow-[0_30px_80px_rgba(51,65,85,0.18)] backdrop-blur-md">
-            <div className="rounded-3xl bg-slate-700 p-6 text-white shadow-[inset_0_1px_0_rgba(255,255,255,0.08)]">
-              <p className="text-xs font-medium uppercase tracking-[0.25em] text-slate-300">
+            <div className="rounded-3xl bg-gray-300 p-6 text-slate-700 shadow-[inset_0_1px_0_rgba(255,255,255,0.08)]">
+              <p className="text-xs font-medium uppercase tracking-[0.25em] text-slate-700">
                 Therapy approach
               </p>
 
@@ -78,7 +78,7 @@ export default function Hero() {
                 {supportAreas.map((area) => (
                   <div key={area} className="flex items-center gap-3">
                     <span className="flex h-2.5 w-2.5 rounded-full bg-slate-300" />
-                    <span className="text-base text-slate-100">{area}</span>
+                    <span className="text-base text-slate-700">{area}</span>
                   </div>
                 ))}
               </div>
