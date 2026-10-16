@@ -13,7 +13,7 @@ const supportAreas = [
 
 export default function Hero() {
   return (
-    <main className="relative isolate overflow-hidden bg-[linear-gradient(135deg,#f8fafc_0%,#f1f5f9_35%,#e2e8f0_100%)] text-slate-700">
+    <main id="home" className="relative isolate overflow-hidden bg-[linear-gradient(135deg,#f8fafc_0%,#f1f5f9_35%,#e2e8f0_100%)] text-slate-700">
       <video
         className="absolute inset-0 h-full w-full object-cover opacity-45 grayscale-[0.15] contrast-100"
         autoPlay

@@ -6,7 +6,7 @@ import { useState } from "react";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const links = [
-    { label: "Home", href: "/" },
+    { label: "Home", href: "#home" },
     { label: "About", href: "#about" },
     { label: "Services", href: "#services" },
     { label: "Contact", href: "#contact" },
