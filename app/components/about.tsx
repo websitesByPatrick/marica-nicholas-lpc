@@ -21,9 +21,10 @@ const About = () => {
 
         <div className="space-y-5 text-lg leading-8 text-slate-700">
           <p>
-            Marica Nicholas is a licensed professional counselor dedicated to
-            helping individuals and families find steadiness, confidence, and
-            renewed hope.
+            Marica Nicholas is a licensed professional counselor at Clearhope
+            Counseling and Wellness in Tomball, Texas. She is dedicated to helping
+            children and adults find steadiness, confidence, and renewed
+            hope.
           </p>
           <p>
             Her approach blends empathy, practical tools, and a collaborative

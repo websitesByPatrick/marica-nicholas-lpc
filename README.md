@@ -18,6 +18,21 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
+## Contact form email
+
+The contact form sends inquiries through Resend. Configure these environment
+variables in `.env.local` for local development and in your deployment
+environment:
+
+```text
+RESEND_API_KEY=your_resend_api_key
+RESEND_FROM_EMAIL="Website contact <contact@your-verified-domain.com>"
+CONTACT_TO_EMAIL=marica@clearhopewellness.com
+```
+
+Verify the sender domain in Resend before using its address for
+`RESEND_FROM_EMAIL`. Keep the API key private and do not commit `.env.local`.
+
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
 ## Learn More

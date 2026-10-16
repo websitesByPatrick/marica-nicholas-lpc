@@ -10,7 +10,7 @@ const Services = () => {
     {
       title: "Life Transitions",
       description:
-        "Guidance through major changes, identity shifts, relationship changes, and difficult decisions.",
+        "Guidance through major life changes, difficult decisions, emotional adjustment, personal growth, and relationship changes.",
     },
     {
       title: "Relationships",

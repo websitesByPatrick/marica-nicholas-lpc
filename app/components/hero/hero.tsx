@@ -1,8 +1,14 @@
 const supportAreas = [
-  "Anxiety & stress",
-  "Life transitions",
-  "Relationships",
-  "Trauma-informed care",
+  "Anxiety",
+  "Christian",
+  "Anger",
+  "Play Therapy",
+  "Trauma",
+  "Autism",
+  "Children",
+  "Depression",
+  "Geriatric",
+  "EMDR"
 ];
 
 export default function Hero() {
@@ -36,7 +42,7 @@ export default function Hero() {
           </p>
 
           <p className="mt-6 text-lg leading-8 text-slate-700">
-            Helping individuals, couples, and families move through anxiety,
+            Helping children and adults move through anxiety, depression,
             life transitions, and relationship challenges with warmth, clarity,
             and evidence-based care.
           </p>
@@ -57,11 +63,7 @@ export default function Hero() {
           </div>
 
           <div className="mt-10 flex flex-wrap items-center gap-x-8 gap-y-3 text-sm font-medium text-slate-700">
-            <span>Virtual sessions</span>
-            <span className="hidden h-1 w-1 rounded-full bg-slate-400 sm:block" />
-            <span>In-person care</span>
-            <span className="hidden h-1 w-1 rounded-full bg-slate-400 sm:block" />
-            <span>Serving Tomball, Magnolia, and surrounding communities</span>
+            <span>Serving Tomball, TX and surrounding areas</span>
           </div>
         </div>
 
@@ -70,11 +72,11 @@ export default function Hero() {
 
           <div className="relative rounded-4xl border border-white/60 bg-white/85 p-6 shadow-[0_30px_80px_rgba(51,65,85,0.18)] backdrop-blur-md">
             <div className="rounded-3xl bg-gray-300 p-6 text-slate-700 shadow-[inset_0_1px_0_rgba(255,255,255,0.08)]">
-              <p className="text-xs font-medium uppercase tracking-[0.25em] text-slate-700">
-                Therapy approach
+              <p className="text-center text-xs font-medium uppercase tracking-[0.25em] text-slate-700">
+                Specialties
               </p>
 
-              <div className="mt-6 space-y-5">
+              <div className="mt-6 grid grid-cols-2 gap-x-4 gap-y-5">
                 {supportAreas.map((area) => (
                   <div key={area} className="flex items-center gap-3">
                     <span className="flex h-2.5 w-2.5 rounded-full bg-slate-300" />
