@@ -1,9 +1,13 @@
+import Image from "next/image";
+
 const Heading = () => {
   return (
     <div className="flex min-w-0 items-center gap-3">
-      <img
-        src="/marica.avif"
+      <Image
+        src="/logo.png"
         alt="Marica Nicholas portrait"
+        width={480}
+        height={480}
         className="h-16 w-16 rounded-full object-cover object-center bg-slate-100 ring-2 ring-slate-200 shadow-sm sm:h-20 sm:w-20"
         style={{ objectPosition: "center 18%" }}
       />
