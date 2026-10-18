@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useRef, useState } from "react";
 import { sendInfo } from "../actions/contact";
 
@@ -114,6 +115,16 @@ const Contact = () => {
 
           <p className="mt-4 text-sm text-slate-700">
             Please do not include sensitive personal or medical information.
+          </p>
+          <p className="mt-2 text-sm text-slate-700">
+            Read our{" "}
+            <Link
+              href="/privacy-policy"
+              className="font-medium text-slate-700 underline underline-offset-4"
+            >
+              Privacy Policy
+            </Link>
+            .
           </p>
 
           {submissionResult && (
