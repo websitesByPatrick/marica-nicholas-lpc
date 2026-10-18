@@ -17,7 +17,7 @@ const merienda = Merienda({
 export const metadata: Metadata = {
   title: "Marica Nicholas, LPC",
   description:
-    "License Professional Counselor in Tomball Magnolia Montgomery Spring TX Texas",
+    "Marica Nicholas, LPC, provides compassionate counseling for children and adults in Tomball, Texas, supporting clients with anxiety, depression, trauma, relationships, and life transitions.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
