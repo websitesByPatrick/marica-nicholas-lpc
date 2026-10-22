@@ -17,7 +17,7 @@ const merienda = Merienda({
 export const metadata: Metadata = {
   title: "Marica Nicholas, LPC",
   description:
-    "Marica Nicholas, LPC, provides compassionate counseling for children and adults in Tomball, Texas, supporting clients with anxiety, depression, trauma, relationships, and life transitions.",
+    "Marica Nicholas is a Licensed Professional Counselor at Clearhope Counseling and Wellness in Tomball, Texas. She is dedicated to helping children and adults find stability, build confidence, and rediscover hope. Marica is certified in play therapy and trained in EMDR (Eye Movement Desensitization and Reprocessing).",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

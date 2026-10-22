@@ -8,7 +8,7 @@ const About = () => {
     "A safe, nonjudgmental space",
   ];
   return (
-    <section id="about" className="bg-white py-20">
+    <section id="about" className="scroll-mt-24 bg-white py-20 sm:scroll-mt-28">
       <div className="mx-auto grid max-w-6xl gap-12 px-6 lg:grid-cols-[0.9fr_1.1fr] lg:px-12">
         <div>
           <p className="text-sm font-semibold uppercase tracking-[0.18em] text-slate-700">

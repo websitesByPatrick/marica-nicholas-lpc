@@ -25,10 +25,13 @@ const Services = () => {
   ];
 
   return (
-    <section id="services" className="bg-slate-50 py-20">
+    <section
+      id="services"
+      className="scroll-mt-24 bg-slate-50 py-20 sm:scroll-mt-28"
+    >
       <div className="mx-auto max-w-6xl px-6 lg:px-12">
         <div className="mx-auto max-w-2xl text-center">
-          <p className="text-sm font-semibold uppercase tracking-[0.18em] text-slate-700">
+          <p className="text-sm font-semibold uppercase tracking-[0.18em] text-slate-700 text-center">
             Services
           </p>
           <h2 className="mt-4 font-roboto text-4xl font-bold text-slate-700 sm:text-5xl">

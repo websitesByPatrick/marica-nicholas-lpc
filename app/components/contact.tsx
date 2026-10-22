@@ -13,10 +13,13 @@ const Contact = () => {
   } | null>(null);
 
   return (
-    <section id="contact" className="scroll-mt-24 bg-slate-100 py-20 text-slate-700">
-      <div className="mx-auto grid max-w-6xl gap-10 px-6 lg:grid-cols-[0.9fr_1.1fr] lg:px-12">
+    <section
+      id="contact"
+      className="scroll-mt-24 bg-slate-100 py-20 text-slate-700 sm:scroll-mt-28"
+    >
+      <div className="mx-auto flex flex-col max-w-6xl gap-10 px-6  lg:px-12">
         <div className="flex flex-col justify-center">
-          <p className="text-sm font-semibold uppercase tracking-[0.18em] text-slate-700">
+          <p className="text-sm font-semibold uppercase tracking-[0.18em] text-slate-700 text-center">
             Contact
           </p>
           <h2 className="mt-4 font-roboto text-4xl font-bold text-slate-700 sm:text-5xl">
@@ -28,10 +31,11 @@ const Contact = () => {
             compassionate space.
           </p>
 
-          <div className="mt-8 space-y-3 text-sm text-slate-700">
+          <div className="mt-8 space-y-3 text-md text-slate-700 text-center lg:text-left">
             <p>marica@clearhopewellness.com</p>
             <p>(281) 769-2238 ext. 640</p>
             <p>Serving Tomball, TX and surrounding areas</p>
+            <p className="mt-5 text-sm lg:text-2xl">Complete the form below and Marica will be in contact with you.</p>
           </div>
         </div>
 

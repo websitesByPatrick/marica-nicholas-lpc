@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const supportAreas = [
   "Anxiety",
   "Christian",
@@ -8,19 +10,21 @@ const supportAreas = [
   "Children",
   "Depression",
   "Geriatric",
-  "EMDR"
+  "EMDR",
 ];
 
 export default function Hero() {
   return (
-    <main id="home" className="relative isolate overflow-hidden bg-[linear-gradient(135deg,#f8fafc_0%,#f1f5f9_35%,#e2e8f0_100%)] text-slate-700">
+    <main
+      id="home"
+      className="scroll-mt-24 relative isolate overflow-hidden bg-[linear-gradient(135deg,#f8fafc_0%,#f1f5f9_35%,#e2e8f0_100%)] text-slate-700 sm:scroll-mt-28 text-center lg:text-left"
+    >
       <video
         className="absolute inset-0 h-full w-full object-cover opacity-45 grayscale-[0.15] contrast-100"
         autoPlay
         muted
         loop
         playsInline
-        // poster="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1200&q=80"
       >
         <source src="/counseling.mp4" type="video/mp4" />
       </video>
@@ -33,36 +37,36 @@ export default function Hero() {
             Compassionate counseling for healing
           </p>
 
-          <h1 className="mt-6 font-roboto text-5xl font-bold tracking-[-0.04em] text-slate-700 sm:text-6xl lg:text-7xl">
+          <h2 className="mt-6 font-roboto text-5xl font-bold tracking-[-0.04em] text-slate-700 sm:text-6xl lg:text-7xl">
             Marica Nicholas
-          </h1>
+          </h2>
 
-          <p className="mt-4 font-merienda text-2xl text-slate-700 sm:text-3xl">
+          <h3 className="mt-4 font-merienda text-2xl text-slate-700 sm:text-3xl">
             Licensed Professional Counselor
+          </h3>
+
+          <p className="mt-6 text-lg leading-8 text-slate-700 text-left">
+            Helping children and adults move through anxiety, depression, life
+            transitions, and relationship challenges with warmth, clarity, and
+            evidence-based care.
           </p>
 
-          <p className="mt-6 text-lg leading-8 text-slate-700">
-            Helping children and adults move through anxiety, depression,
-            life transitions, and relationship challenges with warmth, clarity,
-            and evidence-based care.
-          </p>
-
-          <div className="mt-8 flex flex-wrap gap-4">
-            <a
+          <div className="mt-8 flex flex-wrap gap-4 justify-center lg:justify-start">
+            <Link
               href="#contact"
               className="rounded-full border border-slate-300 bg-slate-100 px-6 py-3 text-sm font-semibold text-slate-700 shadow-[0_18px_35px_rgba(30,41,59,0.12)] transition hover:-translate-y-0.5 hover:bg-slate-200"
             >
               Book a consultation
-            </a>
-            <a
+            </Link>
+            <Link
               href="#about"
               className="rounded-full border border-slate-300 bg-white/80 px-6 py-3 text-sm font-semibold text-slate-700 shadow-[0_10px_25px_rgba(100,116,139,0.08)] backdrop-blur-sm transition hover:bg-white"
             >
               Learn more
-            </a>
+            </Link>
           </div>
 
-          <div className="mt-10 flex flex-wrap items-center gap-x-8 gap-y-3 text-sm font-medium text-slate-700">
+          <div className="mt-10 flex flex-wrap items-center gap-x-8 gap-y-3 text-sm font-medium text-slate-700 justify-center lg:justify-start">
             <span>Serving Tomball, TX and surrounding areas</span>
           </div>
         </div>
